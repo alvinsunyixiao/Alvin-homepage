@@ -286,7 +286,7 @@ i.behance:hover{
 .percent{
 	float: right;
 	color: #4A5561;
-	margin: 4px 10px 0;
+	margin: 4px 5px 0;
 	font-weight: 600;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:17px;
@@ -1113,11 +1113,11 @@ i.phone{
   margin-top: 13.7em;
 }
 .nbs-flexisel-nav-left {
-  	left: 20%;
+  	left: 45%;
   	background: url(../images/img-sprite.png) no-repeat -185px -79px;
 }
 .nbs-flexisel-nav-right {
-  	right:20%;
+  	right:45%;
  	background: url(../images/img-sprite.png) no-repeat -235px -79px;
 }
 .twitter-section{
@@ -1180,7 +1180,7 @@ i.in{
 /*----- responsive-design ------*/	
  @media screen and (max-width:1366px){
 	.top-menu ul li {
-		margin: 0 7em;
+		margin: 0 6em;
 	}
 	.header-banner-info label {
 		right: 58.5%;
@@ -1189,10 +1189,10 @@ i.in{
 		right: 31.5%;
 	}
 	.nbs-flexisel-nav-right{
-		right:30%;
+		right:45%;
 	}
 	.nbs-flexisel-nav-left{
-		left:30%;
+		left:605px;
 	}
 	.project-description p {
 		font-size: 15px;
@@ -1202,7 +1202,7 @@ i.in{
 }
  @media screen and (max-width:1280px){
 	.top-menu ul li {
-		margin: 0 7em;
+		margin: 0 4em;
 	}
 	.header-banner-info {
 		padding-top: 10em;
@@ -1214,12 +1214,12 @@ i.in{
 		font-size: 4.5em;
 	}
 	.header-banner-info label {
-		right: 58.5%;
-		bottom: 20.5%;
+		right: 60%;
+		bottom: 17.6%;
 	}
 	.header-banner-info span.line {
-		right: 31.5%;
-		bottom: 20.5%;
+		right: 29.8%;
+		bottom: 17.6%;
 	}
 	.about-section-grid-2.text-center img {
 		padding: 2.4em;
@@ -1270,7 +1270,7 @@ i.in{
 		margin-bottom: 0.8em;
 	}
 	.nbs-flexisel-nav-left {
-		left: 565px;
+		left: 45%;
 	}
 	.project-name h3 {
 		font-size: 1.3em;
@@ -1310,7 +1310,7 @@ i.in{
 } 
 @media screen and (max-width:1024px){
 	.top-menu ul li {
-		margin: 0 5.4em;
+		margin: 0 2.6em;
 		
 	}
 	.header-banner-info h3 {
@@ -1332,11 +1332,11 @@ i.in{
 	}
 	.header-banner-info label {
 		right: 60.2%;
-		bottom: 22%;
+		bottom: 19.2%;
 	}
 	.header-banner-info span.line {
 		right: 30%;
-		bottom: 22%;
+		bottom: 19.2%;
 	}
 	ul.details {
 		padding-top: 4em;
@@ -1473,10 +1473,10 @@ i.in{
 		margin: 0.5em 0 1em 0;
 	}
 	.nbs-flexisel-nav-left {
-		left: %30;
+		left: 450px;
 	}
 	.nbs-flexisel-nav-right{
-		right:30%;
+		right:45%;
 	}
 	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 		margin-top: 11.7em;
@@ -1804,10 +1804,10 @@ i.in{
 		margin-top: 8.2em;
 	}
 	.nbs-flexisel-nav-left {
-		left: 30%;
+		left: 316px;
 	}
 	.nbs-flexisel-nav-right {
-		right: 30%;
+		right: 42%;
 	}
 	.b-animate {
 		top: 57px;
