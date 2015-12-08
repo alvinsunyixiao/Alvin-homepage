@@ -12,7 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<script src="./js/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
@@ -58,8 +59,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>A Music Fan.<br>An Extreme Sports Lover.<br>A student from RDFZ.<br>The High School Affiliated to Renmin Univercity. </p>
 					
 					<ul class="details">
-						<li>Age     :     <a href="#">17</a></li>
-						<li>Country     :     <a href="#">China</a></li>
+						<li>Age     :     <a href="##">17</a></li>
+						<li>Country     :     <a href="##">China</a></li>
 						<li>Studying in     :     <a href="http://www.rdfz.cn">RDFZ</a></li>
 					</ul>
 				</div>
@@ -85,8 +86,41 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<p>More than a student, I am also a huge fan of music and extreme sports. Mastery of three different types of instruments as well as free style snowboarding, parkour, etc.</p><br>
 						<p>Even more than that, I am a Smart Device developer. Micro controllers, Quadcopters, Robotics, I just LOVE the feelings of making stuff.</p><br>
 						<ul class="social-icons">
-						    <li><a href="#"><i class="twitter"></i></a></li>
-						    <li><a href="#"><i class="dribble"></i></a></li>
+						    <li><a href="#wechatModal" data-toggle="modal"><i class="twitter"></i></a>
+						    <div class="modal fade" id="wechatModal" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true">
+							   <div class="modal-dialog">
+							      <div class="modal-content">
+							         <div class="modal-body">
+							            <img src="images/wechatqr.png" width=100%/>
+							         </div>
+							         <div class="modal-footer">
+							            <button type="button" class="btn btn-default" 
+							               data-dismiss="modal" style="border-color:#057723; border-radius:1px; border:3px solid #107D31">GOT IT
+							            </button>
+							         </div>
+							      </div><!-- /.modal-content -->
+							</div>
+						    </li>
+						    <li><a href="#skypeModal" data-toggle="modal"><i class="dribble"></i></a>
+						    <div class="modal fade" id="skypeModal" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true">
+							   <div class="modal-dialog">
+							      <div class="modal-content">
+							         <div class="modal-body" style="background-color: #0ABBFF;" align="center">
+							         	<img src="images/skype.png" style="margin-bottom:7%" width=30%/>
+							            <h2 align="center"><b>Skype Name:</b> SuperAlvinSun</h2>
+							            <h2><b>Phone No.</b> +86 185 0103 5804</h2>
+							            <h2><b>E-mail:</b> alvinsunyixiao@gmail.com</h2>
+							         </div>
+							         <div class="modal-footer">
+							            <button type="button" class="btn btn-default" 
+							               data-dismiss="modal" style="border-color:#057723; border-radius:1px; border:3px solid #0ABBFF">GOT IT
+							            </button>
+							         </div>
+							      </div><!-- /.modal-content -->
+							</div>
+						    </li>
 						    <li><a href="https://www.facebook.com/alvin.sun.146"><i class="behance"></i></a></li>
 					    </ul>
 					</div>
@@ -415,19 +449,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    <div class="course_demo">
 		          <ul id="flexiselDemo3">	
 					<li>
-						<a href="#"><i class="tw"></i></a>
+						<a href="#wechatModal" data-toggle="modal"><i class="tw"></i></a>
 						<p>School is tough yet FUN</p>
-						<a href="#">@Alvin Sun</a>
+						<a>@Alvin Sun</a>
 					</li>
 					<li>
 						<a href="https://www.facebook.com/alvin.sun.146"><i class="fb"></i></a>
 						<p>Look around you, the world could be much more fascinating than you've ever imagined</p>
-						<a href="#">@Alvin Sun</a>
+						<a>@Alvin Sun</a>
 					</li>	
 					<li>
-						<a href="#"><i class="in"></i></a>
+						<a href="#skypeModal" data-toggle="modal"><i class="in"></i></a>
 						<p>Success always comes with HARDWOKING and PASSION</p>
-						<a href="#">@Alvin Sun</a>
+						<a>@Alvin Sun</a>
 					</li>									    	  	       	   	  									    	  	       	   	    	
 				</ul>
 
@@ -474,16 +508,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="contact-info">
 				<ul>
 					<li><i class="message"></i></li>
-					<li>alvinsunyixiao@gmail.com</li>
+					<li><a>alvinsunyixiao@gmail.com</a></li>
 					<li><i class="phone"></i></li>
-					<li>+86 185 0103 5804</li>
+					<li><a>+86 185 0103 5804</a></li>
 				</ul>
-				<form>
-					<input type="text" class="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}">
-					<input type="text" class="text" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}">
-					<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
-					<input type="button" value="SEND MESSAGE">
-				</form>
+				
 			</div>
 		</div>
 	</div>
