@@ -67,7 +67,9 @@ label{
 	display:inline-block;
 	text-transform:uppercase;
 	float:left;
-	margin: 0 4px;
+	margin: 0 0px;
+	width: 25%;
+	text-align: center;
 }
 .top-menu ul li a{
 	color:#FFFFFF;
@@ -214,7 +216,7 @@ i.behance:hover{
 .about-section-grid-2.text-center {
 	border: 3px solid #FFD670;
 	border-radius: 118px;
-	padding: 2em 0.5em;
+	padding: 2em 2em;
 }
 .about-section-head p{
 	color:#D0C6DB;
@@ -1163,12 +1165,12 @@ i.phone{
   margin-top: 6em;
 }
 .nbs-flexisel-nav-left {
-  	left: 113px;
+  	left: 30%;
   	background: url(../images/img-sprite.png) no-repeat -131px -59px;
 	background-size: 350px;
 }
 .nbs-flexisel-nav-right {
-  	right:39%;
+  	right:30%;
  	background: url(../images/img-sprite.png) no-repeat -167px -59px;
 	background-size: 350px;
 }

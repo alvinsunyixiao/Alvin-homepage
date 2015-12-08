@@ -43,7 +43,9 @@ label{
 	display:inline-block;
 	text-transform:uppercase;
 	float:left;
-	margin: 0 6em;
+	margin: 0 0;
+	width: 25%;
+	text-align: center;
 }
 .top-menu ul li a{
 	color:#FFFFFF;
@@ -1180,7 +1182,7 @@ i.in{
 /*----- responsive-design ------*/	
  @media screen and (max-width:1366px){
 	.top-menu ul li {
-		margin: 0 6em;
+		margin: 0 0em;
 	}
 	.header-banner-info label {
 		right: 58.5%;
@@ -1202,7 +1204,7 @@ i.in{
 }
  @media screen and (max-width:1280px){
 	.top-menu ul li {
-		margin: 0 4em;
+		margin: 0 0em;
 	}
 	.header-banner-info {
 		padding-top: 10em;
@@ -1310,7 +1312,7 @@ i.in{
 } 
 @media screen and (max-width:1024px){
 	.top-menu ul li {
-		margin: 0 2.6em;
+		margin: 0 0em;
 		
 	}
 	.header-banner-info h3 {
@@ -1524,7 +1526,7 @@ i.in{
 		padding: 5px 5px;
 	}
 	.top-menu ul li {
-		margin: 0 3.6em;
+		margin: 0 0em;
 		
 	}
 	.top-menu ul li a {
@@ -1847,7 +1849,7 @@ i.in{
 }
 @media screen and (max-width:640px){
 	.top-menu ul li {
-		margin: 0 2.2em;
+		margin: 0 0em;
 	}
 	.top-menu ul li a {
 		font-size: 13px;
